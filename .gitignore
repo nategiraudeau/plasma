@@ -1,0 +1,5 @@
+/plasma
+/paint
+*.test
+coverage.out
+.DS_Store
