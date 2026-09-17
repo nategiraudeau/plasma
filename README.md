@@ -2,6 +2,8 @@
 
 ascii plasma for the terminal. includes a mask editor and a reusable go component.
 
+<img src="assets/diagonal.gif" alt="animated diagonal plasma rendered in Ghostty" width="700">
+
 ## run
 
 requires go 1.25 or newer.
