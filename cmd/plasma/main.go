@@ -1,4 +1,4 @@
-// Command plasma runs the tui.studio plasma as a full-screen Bubble Tea app.
+// Command plasma runs a full-screen plasma animation.
 package main
 
 import (

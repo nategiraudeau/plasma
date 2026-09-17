@@ -1,7 +1,4 @@
-// Package plasma implements the ASCII plasma used behind the hero on tui.studio.
-//
-// The underlying waves mirror the site's JavaScript, with a softly warped
-// horizontal mask integrated into glyph density and opacity.
+// Package plasma renders an animated ASCII plasma field with configurable masks.
 package plasma
 
 import (
@@ -19,7 +16,7 @@ const (
 	FrameStep = 0.016 * 1.3
 )
 
-// DensityRamp is ordered from empty to full exactly as on tui.studio.
+// DensityRamp orders glyphs from empty to full.
 const DensityRamp = " ·.:;+|*#%@█"
 
 var densityRunes = []rune(DensityRamp)
